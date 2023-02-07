@@ -1,0 +1,22 @@
+<!--
+* File: about.component.html <br>
+* Author: Tóth Júlia <br>
+* Copyright: 2023, Tóth Júlia <br>
+* Group: Szoft 2/N <br>
+* Date: 2022-02-07 <br>
+* Github: https://github.com/haribomaci/ <br>
+* Licenc: GNU GPL <br> 
+-->
+
+<div class="mt-3">
+    <input type="text" [formControl]="kg" placeholder="Tömeg (kg)" class="form-control">
+</div>
+<div class="mt-3">
+    <input type="text" [formControl]="m" placeholder="Magasság" class="form-control">
+</div>
+
+<button (click)="onClickCalcButton()" class="btn btn-info mt-2">Számit</button>
+
+<div class="mt-3" *ngIf="valueVisible">
+    <input type="text" [formControl]="value" readonly class="form-control" placeholder="Eredmény">
+</div>
