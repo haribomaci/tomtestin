@@ -1,5 +1,5 @@
 // <!--
-// * File: githuv.component.ts <br>
+// * File: github.component.ts <br>
 // * Author: Tóth Júlia <br>
 // * Copyright: 2023, Tóth Júlia <br>
 // * Group: Szoft 2/N <br>
